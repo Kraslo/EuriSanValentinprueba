@@ -13,7 +13,7 @@ function FormEnviar() {
     f(e)
   }
   const handleSubmit = preventDefault(() => {
-    router.push(`/enviar?emisor=${emisor}`, '/enviar')
+    router.push('/enviado')
   })
 
   const handleParam = ({ setValue }) => { e => setValue(e.target.value) }
