@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import {useRouter} from 'next/router'
 
-function Login({ children }) {
+function Login() {
 
   const router = useRouter()
   const [emisor, setEmisor] = useState('')
@@ -13,15 +13,16 @@ function Login({ children }) {
   const handleSubmit = preventDefault(() => {
     router.push(`/enviar?emisor=${emisor}`, '/enviar')
   })
-  const handleParam = setValue => e => setValue(e.target.value)
+
+  const handleParam = ({setValue}) => {e => setValue(e.target.value)}
 
   return (
     <div className="form-container">
-      {
-        // Instagram, email or something
-      }
       <form onSubmit={handleSubmit}>
-        <input className="known-fact-input" onChange={handleParam(setEmisor)}/>
+        <input className="known-fact-input" 
+        onChange={handleParam(setEmisor)}         
+        pattern=".*@(?:alumnos.upm.es|upm.es|.*.upm.es)$"
+        placeholder="email@alumnos.upm.es"/>
         <button type="submit">Entrar</button>
       </form>
 
