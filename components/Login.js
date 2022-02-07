@@ -1,17 +1,17 @@
 import {useState} from 'react'
 import {useRouter} from 'next/router'
 
-function Form({ children }) {
+function Login({ children }) {
 
   const router = useRouter()
-  const [query, setQuery] = useState('')
+  const [emisor, setEmisor] = useState('')
 
   const preventDefault = f => e => {
     e.preventDefault()
     f(e)
   }
   const handleSubmit = preventDefault(() => {
-    router.push(`/enviar?emisor=${query}`, '/enviar')
+    router.push(`/enviar?emisor=${emisor}`, '/enviar')
   })
   const handleParam = setValue => e => setValue(e.target.value)
 
@@ -21,12 +21,12 @@ function Form({ children }) {
         // Instagram, email or something
       }
       <form onSubmit={handleSubmit}>
-        <input className="known-fact-input" onChange={handleParam(setQuery)}/>
-        <button type="/submit">Entrar</button>
+        <input className="known-fact-input" onChange={handleParam(setEmisor)}/>
+        <button type="submit">Entrar</button>
       </form>
 
     </div>
   );
 }
 
-export default Form;
+export default Login;
