@@ -1,9 +1,9 @@
-import { Form, Piruletas } from "../components";
+import { FormEnviar, Piruletas } from "../components";
 
 function Home() {
   return <div className="home">
-  <Piruletas/>
-  <Form/>
+    <Piruletas />
+    <FormEnviar />
   </div>;
 }
 
