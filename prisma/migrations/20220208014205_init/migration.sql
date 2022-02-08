@@ -4,9 +4,10 @@ CREATE TABLE "Present" (
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "personType" TEXT,
     "email" TEXT,
-    "name" TEXT,
-    "account" TEXT,
+    "name" TEXT NOT NULL,
+    "account" TEXT NOT NULL,
     "message" TEXT,
-    "group" TEXT,
-    "degree" TEXT
+    "group" TEXT NOT NULL,
+    "degree" TEXT NOT NULL,
+    "findHint" TEXT NOT NULL
 );

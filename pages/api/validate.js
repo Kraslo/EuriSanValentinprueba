@@ -4,24 +4,35 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 const validateRequest = (body) => {
-  const { email, personType, name, account, message, group, degree } = body
+  const { email, personType, name, account, message, group, degree, findHint } = body
 
   const emailValidation = email.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g)
+  console.log("Email validation:")
   console.log(emailValidation)
 
-  const lengthValidation = Object.values(body).every(elem => {elem === undefined || elem.length < 1000})
+  const lengthValidation = Object.values(body).every(elem => {
+    return elem === undefined || elem.length < 1000
+  })
+  console.log("Length validation:")
   console.log(lengthValidation)
 
   const typeValidation = ["student", "teacher", "pas"].includes(personType)
+  console.log("Incorrect person type validation:")
   console.log(typeValidation)
 
   const studentValidation = !(personType === "student" && degree === undefined)
+  console.log("Student but not degree validation:")
   console.log(studentValidation)
 
+  const teacherValidation = !(personType !== "student" && findHint === undefined)
+  console.log("Teacher but not findHint validation:")
+  console.log(teacherValidation)
+
   const nameValidation = !(name === undefined && account === undefined)
+  console.log("Neither name nor account validation:")
   console.log(nameValidation)
 
-  return emailValidation && lengthValidation && typeValidation && studentValidation && nameValidation
+  return emailValidation && lengthValidation && typeValidation && studentValidation && teacherValidation && nameValidation
 }
 
 export default async function handler(req, res) {
@@ -35,7 +46,7 @@ export default async function handler(req, res) {
     // Text: message
 
     if(validateRequest(req.body)) {
-      const { email, personType, name, account, message, group, degree } = req.body
+      const { email, personType, name, account, message, group, degree, findHint } = req.body
 
       console.log(email)
       console.log(personType)
@@ -51,7 +62,8 @@ export default async function handler(req, res) {
           account: account,
           message: message,
           group: group,
-          degree: degree
+          degree: degree,
+          findHint: findHint
         }
       })
 

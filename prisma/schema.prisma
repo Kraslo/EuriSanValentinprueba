@@ -20,4 +20,5 @@ model Present {
   message     String?
   group       String
   degree      String
+  findHint    String
 }
