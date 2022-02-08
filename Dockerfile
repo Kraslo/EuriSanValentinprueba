@@ -9,10 +9,10 @@ COPY . .
 
 # install app dependencies
 RUN yarn install
-# RUN yarn prisma migrate dev --name init
+RUN yarn prisma migrate dev --name init
 RUN yarn run build
 
 EXPOSE 3000
 
 # start
-CMD ["yarn", "prisma", "migrate", "dev", "--name", "init", "&", "yarn", "run",  "start"]
+CMD ["yarn", "run",  "start"]

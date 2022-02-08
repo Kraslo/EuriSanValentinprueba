@@ -5,8 +5,8 @@ services:
     image: sanva
     container_name: sanva
     restart: unless-stopped
-    volumes:
-      - /tmp/prisma/data:/app/prisma/data
+    # volumes:
+    #   - /tmp/prisma/data:/app/prisma/data
     ports:
       - 3000:3000
     # command: yarn prisma migrate dev --name init & yarn run start
