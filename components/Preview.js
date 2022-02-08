@@ -1,7 +1,8 @@
 import Image from "next/image";
-function Preview({ children }) {
+function Preview(props) {
   return (
     <div className="preview-container">
+      <div className="card-container">
         <Image
           height={1240*0.2}
           width={900*0.2}
@@ -11,8 +12,9 @@ function Preview({ children }) {
           alt="Piruleta"
         />
         <div className="note">
-            Quo usque tandem abutere, Catilina, patientia nostra? Curabitur blandit tempus ardua ridiculus sed magna. Pellentesque habitant morbi tristique senectus et netus. Magna pars studiorum, prodita quaerimus.
+            {props.message}
         </div>
+      </div>
     </div>
   );
 }
