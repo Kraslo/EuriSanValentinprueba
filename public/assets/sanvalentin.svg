@@ -5,15 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="288"
    height="34"
    viewBox="0 0 76.2 8.995833"
    version="1.1"
-   id="svg8"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="sanvalentin.svg">
+   id="svg8">
   <defs
      id="defs2">
     <rect
@@ -23,26 +19,6 @@
        height="11.924152"
        id="rect835" />
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="178.44624"
-     inkscape:cy="22.604785"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="px"
-     inkscape:window-width="3840"
-     inkscape:window-height="2130"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,52 +32,50 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1">
     <path
        d="m 5.370949,5.68206 q 0,1.38641 -0.687914,2.15899 -0.709081,0.80434 -1.98966,0.80434 -1.460496,0 -2.042577,-0.89959 -0.423332,-0.64558 -0.423332,-1.87324 0,-1.94733 0.560915,-1.94733 0.0635,0 0.433915,0.127 0.380999,0.11642 0.550332,0.11642 0.179916,0 0.338665,-0.16933 0.116416,-0.127 0.116416,-0.20109 0,-0.10583 -0.402165,-0.46566 Q 1.285796,2.84574 1.095296,2.6129 0.693131,2.14724 0.693131,1.75566 q 0,-0.43392 0.465665,-0.80433 0.603248,-0.47625 1.672162,-0.47625 0.592664,0 1.185329,0.30691 0.687915,0.34925 0.687915,0.85725 0,0.73025 -0.825498,0.73025 -0.391582,0 -0.560915,-0.30692 Q 3.211956,1.78741 3.106123,1.51224 2.96854,1.20533 2.640458,1.20533 q -0.222249,0 -0.465665,0.1905 -0.243416,0.19049 -0.243416,0.38099 0,0.26459 0.867831,0.67733 1.174746,0.56092 1.682744,0.98425 0.888997,0.75142 0.888997,2.24366 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path857" />
     <path
        d="m 13.583571,7.25897 q 0,1.40758 -1.566328,1.40758 h -1.026581 q -0.253999,0 -0.539748,-0.254 Q 9.964082,7.97864 9.964082,7.02614 l 0.465666,-2.70932 q 0.01058,-0.0741 0.01058,-0.14817 0,-0.29633 -0.169333,-0.508 Q 10.112246,3.4384 9.83708,3.4384 q -0.465665,0 -0.613832,0.28575 -0.08467,0.15875 -0.08467,0.508 0,0.51858 0.253999,1.47108 0.253999,0.95249 0.253999,1.38641 0,0.51858 -0.253999,0.9525 Q 9.011578,8.71947 8.186081,8.71947 H 7.50875 q -0.761998,0 -1.142996,-0.46567 -0.317499,-0.39158 -0.317499,-1.02658 0,-0.70908 0.80433,-2.12724 0.804331,-1.41816 0.804331,-2.05316 0,-0.51858 -0.296332,-1.0795 -0.296333,-0.56091 -0.296333,-0.80433 0,-0.56091 1.799161,-0.66675 0.105833,-0.0106 1.926161,-0.0318 1.005413,0.0953 1.248829,0.15875 0.634998,0.15875 0.634998,0.60325 0,0.0741 -0.285749,0.65617 -0.285749,0.58208 -0.285749,1.17474 0,0.65617 0.740831,2.05316 0.740831,1.38642 0.740831,2.14841 z m -3.249073,-5.3234 q 0,-0.17991 -0.148166,-0.29633 -0.137583,-0.127 -0.328083,-0.127 -0.179916,0 -0.370415,0.26458 -0.148166,0.22225 -0.148166,0.30692 0,0.0106 0.02117,0.0318 0.02117,0.0212 0.02117,0.0423 0.719664,0 0.846664,0.0212 0.105833,0 0.105833,-0.24342 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path859" />
     <path
        d="m 21.489282,7.40714 q 0,0.73025 -0.328082,0.98425 -0.317499,0.254 -1.111246,0.254 -0.783165,0 -1.15358,-0.23284 Q 18.568292,8.20089 18.377792,7.66114 18.346042,7.55531 18.04971,6.34881 17.95446,5.95723 17.668711,4.82481 17.382962,3.6924 17.382962,3.68182 17.277129,3.38549 17.02313,3.38549 q -0.05292,0 -0.15875,0.17991 -0.137583,0.21167 -0.137583,0.46567 0,0.42333 0.560915,1.56632 0.560915,1.143 0.560915,1.76742 0,0.84666 -0.634998,1.13241 -0.349249,0.15875 -1.12183,0.15875 -1.02658,0 -1.428745,-0.40217 -0.317499,-0.30691 -0.317499,-0.97366 0,-0.59267 0.507998,-1.95791 0.518582,-1.37583 0.518582,-2.02141 0,-0.48683 -0.391582,-1.16416 -0.380999,-0.68792 -0.380999,-0.97367 0,-0.43391 0.645582,-0.66675 0.433915,-0.14816 0.86783,-0.14816 1.005414,0 1.608662,0.89958 0.380998,0.56091 0.77258,1.88383 0.391583,1.31233 0.624415,1.66157 0.169333,-0.127 0.169333,-0.41274 0,-0.56092 -0.476249,-1.94733 -0.476248,-1.397 -0.476248,-1.32291 0,-0.1905 0.306916,-0.40217 0.465665,-0.3175 1.344079,-0.3175 0.455082,0 0.846664,0.17992 0.465665,0.22225 0.465665,0.5715 0,0.17991 -0.433915,1.02658 -0.433916,0.84666 -0.433916,1.16416 0,0.65616 0.529165,2.13783 0.529165,1.48166 0.529165,1.93674 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path861" />
     <path
        d="m 31.913806,1.24766 q 0,0.34925 -0.476248,1.16416 -0.719665,1.23825 -0.899581,1.62983 -0.497415,1.06891 -0.529165,2.00024 0.01058,-0.17991 0.03175,1.36525 0.01058,0.52916 -0.444499,0.89958 -0.455081,0.37042 -0.984246,0.37042 -0.772581,0 -1.18533,-0.51859 -0.359832,-0.4445 -0.359832,-1.16416 V 5.4069 q 0,-0.51859 -0.751414,-2.032 Q 26.082408,2.90924 25.51091,2.20016 25.098161,1.70274 25.098161,1.35349 q 0,-0.43391 0.497415,-0.64558 0.391582,-0.16933 0.973664,-0.16933 0.677331,0 1.132413,0.28575 0.455082,0.28575 0.455082,0.75141 0,0.0635 -0.01058,0.13758 l -0.253999,1.5875 q 0,0.28575 0.201083,0.60325 0.222249,0.34925 0.486832,0.34925 0.253999,0 0.476248,-0.28575 0.232833,-0.29634 0.232833,-0.762 0,-0.20108 -0.1905,-0.81491 -0.179916,-0.62442 -0.179916,-0.85725 0,-0.94192 1.799161,-0.94192 0.444499,0 0.814914,0.17992 0.380999,0.17992 0.380999,0.47625 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path863" />
     <path
        d="m 39.195097,7.25897 q 0,1.40758 -1.566328,1.40758 h -1.02658 q -0.253999,0 -0.539748,-0.254 -0.486832,-0.43391 -0.486832,-1.38641 l 0.465665,-2.70932 q 0.01058,-0.0741 0.01058,-0.14817 0,-0.29633 -0.169332,-0.508 -0.15875,-0.22225 -0.433916,-0.22225 -0.465665,0 -0.613831,0.28575 -0.08467,0.15875 -0.08467,0.508 0,0.51858 0.253999,1.47108 0.253999,0.95249 0.253999,1.38641 0,0.51858 -0.253999,0.9525 -0.380999,0.67733 -1.206496,0.67733 h -0.677332 q -0.761997,0 -1.142996,-0.46567 -0.317499,-0.39158 -0.317499,-1.02658 0,-0.70908 0.804331,-2.12724 0.804331,-1.41816 0.804331,-2.05316 0,-0.51858 -0.296333,-1.0795 -0.296332,-0.56091 -0.296332,-0.80433 0,-0.56091 1.799161,-0.66675 0.105833,-0.0106 1.92616,-0.0318 1.005414,0.0953 1.24883,0.15875 0.634998,0.15875 0.634998,0.60325 0,0.0741 -0.285749,0.65617 -0.28575,0.58208 -0.28575,1.17474 0,0.65617 0.740831,2.05316 0.740831,1.38642 0.740831,2.14841 z m -3.249073,-5.3234 q 0,-0.17991 -0.148166,-0.29633 -0.137583,-0.127 -0.328082,-0.127 -0.179916,0 -0.370416,0.26458 -0.148166,0.22225 -0.148166,0.30692 0,0.0106 0.02117,0.0318 0.02117,0.0212 0.02117,0.0423 0.719665,0 0.846664,0.0212 0.105833,0 0.105833,-0.24342 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path865" />
     <path
        d="m 45.068814,6.70864 q 0,0.58208 -0.296332,1.143 -0.550332,0.77258 -1.206496,0.80433 -0.592665,-0.0106 -1.767411,0.0318 -0.804331,0.0635 -1.375829,-0.30692 -0.560915,-0.381 -0.560915,-1.02658 0,-0.51858 0.518582,-2.06374 0.529165,-1.54516 0.529165,-2.02141 0,-0.3175 -0.465666,-1.06891 -0.455082,-0.762 -0.455082,-1.03717 0,-0.41275 0.634998,-0.65616 0.550332,-0.21167 1.269996,-0.21167 0.380999,0 0.825498,0.10583 0.592665,0.14817 0.592665,0.39159 0,0.13758 -0.359833,0.85724 -0.359832,0.70909 -0.359832,1.21708 0,0.22225 0.148166,0.48684 0.15875,0.29633 0.359833,0.29633 0.275165,0 0.476248,-0.32808 0.201083,-0.32809 0.465665,-0.32809 0.465665,0 0.783164,1.09008 0.243416,0.80433 0.243416,1.2065 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path867" />
     <path
        d="m 50.963702,5.93606 q 0.03175,0.33867 0.03175,0.62442 0,1.16416 -0.571498,1.61924 -0.560915,0.45508 -1.957911,0.45508 -2.836324,0 -2.836324,-1.23824 0,-0.59267 0.603248,-2.00025 0.613832,-1.40758 0.613832,-2.06374 0,-0.56092 -0.380999,-1.19591 -0.380999,-0.64559 -0.380999,-0.87842 0,-0.77258 1.947327,-0.75141 0.380999,-0.0106 1.259413,0.0212 0.476248,0.0423 0.804331,0.508 0.243415,0.34925 0.243415,0.60325 0,0.45508 -0.391582,0.45508 -0.328082,0 -0.624414,-0.29633 -0.296333,-0.29633 -0.571498,-0.29633 -0.15875,0 -0.275166,0.0847 -0.105833,0.0847 -0.105833,0.1905 0,0.20109 0.275166,0.26459 0.507998,0.10583 0.529165,0.11641 0.275165,0.127 0.275165,0.48683 0,0.254 -0.264582,0.30692 -0.253999,0.0529 -0.507999,0.0952 -0.264582,0.0847 -0.264582,0.40217 0,0.34924 0.455082,0.34924 0.349249,0 0.709081,-0.34924 0.370415,-0.35984 0.391582,-0.35984 0.825497,0 0.973664,1.68275 -0.01058,0.35983 0.02117,1.16416 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path869" />
     <path
        d="m 58.774174,7.40714 q 0,0.73025 -0.328082,0.98425 -0.317499,0.254 -1.111246,0.254 -0.783165,0 -1.15358,-0.23284 Q 55.853184,8.20089 55.662684,7.66114 55.630934,7.55531 55.334602,6.34881 55.239352,5.95723 54.953603,4.82481 54.667854,3.6924 54.667854,3.68182 54.562021,3.38549 54.308022,3.38549 q -0.05292,0 -0.15875,0.17991 -0.137582,0.21167 -0.137582,0.46567 0,0.42333 0.560914,1.56632 0.560915,1.143 0.560915,1.76742 0,0.84666 -0.634998,1.13241 -0.349249,0.15875 -1.121829,0.15875 -1.026581,0 -1.428746,-0.40217 -0.317499,-0.30691 -0.317499,-0.97366 0,-0.59267 0.507998,-1.95791 0.518582,-1.37583 0.518582,-2.02141 0,-0.48683 -0.391582,-1.16416 -0.380999,-0.68792 -0.380999,-0.97367 0,-0.43391 0.645582,-0.66675 0.433915,-0.14816 0.86783,-0.14816 1.005414,0 1.608662,0.89958 0.380998,0.56091 0.772581,1.88383 0.391582,1.31233 0.624414,1.66157 0.169333,-0.127 0.169333,-0.41274 0,-0.56092 -0.476248,-1.94733 -0.476249,-1.397 -0.476249,-1.32291 0,-0.1905 0.306916,-0.40217 0.465665,-0.3175 1.344079,-0.3175 0.455082,0 0.846664,0.17992 0.465665,0.22225 0.465665,0.5715 0,0.17991 -0.433915,1.02658 -0.433916,0.84666 -0.433916,1.16416 0,0.65616 0.529165,2.13783 0.529165,1.48166 0.529165,1.93674 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path871" />
     <path
        d="m 63.811815,2.07316 q 0,0.51858 -0.0635,0.67733 -0.0952,0.27516 -0.47625,0.27516 -0.254,0 -0.41275,-0.37041 -0.0318,-0.0741 -0.21167,-0.6985 -0.10583,-0.37042 -0.23283,-0.37042 -0.14816,0 -0.254,0.14817 -0.10583,0.13758 -0.10583,0.28575 0,0.3175 0.68791,2.09549 0.6985,1.778 0.6985,2.66699 0,1.016 -0.41275,1.44992 -0.46566,0.50799 -1.62982,0.50799 -1.344084,0 -1.820332,-0.61383 -0.275166,-0.35983 -0.275166,-1.04774 0,-0.85725 0.793748,-2.4765 0.79375,-1.61924 0.79375,-2.42357 0,-0.53975 -0.254,-0.53975 -0.190501,0 -0.243418,0.37042 -0.09525,0.65616 -0.105833,0.68791 -0.116416,0.37042 -0.465665,0.37042 -0.402166,0 -0.497415,-0.40217 -0.02117,-0.0952 -0.02117,-0.62441 0,-0.87842 0.211666,-1.17475 0.264583,-0.37042 1.058335,-0.37042 h 2.29657 q 0.59267,0 0.80433,0.52917 0.13759,0.33867 0.13759,1.04775 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path873" />
     <path
        d="m 68.246215,6.93089 q 0,1.57691 -1.47108,1.57691 h -0.94192 q -0.381,0 -0.82549,-0.23283 -0.80434,-0.41275 -0.80434,-1.36525 0,-0.51858 0.5715,-1.78857 0.58208,-1.28058 0.58208,-1.91558 0,-0.42333 -0.35983,-1.12183 -0.34925,-0.6985 -0.34925,-0.87841 0,-0.46567 0.67733,-0.67734 0.41275,-0.13758 0.81492,-0.13758 0.96308,0 1.34408,0.14817 0.53975,0.20108 0.53975,0.79375 0,0.20108 -0.41275,0.94191 -0.40217,0.74083 -0.40217,1.10066 0,0.17992 0.51858,1.4605 0.51859,1.26999 0.51859,2.09549 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path875" />
     <path
        d="m 75.940265,7.40714 q 0,0.73025 -0.32808,0.98425 -0.3175,0.254 -1.11125,0.254 -0.78316,0 -1.15358,-0.23284 -0.32808,-0.21166 -0.51858,-0.75141 -0.0318,-0.10583 -0.32808,-1.31233 -0.0952,-0.39158 -0.381,-1.524 -0.28575,-1.13241 -0.28575,-1.14299 -0.10583,-0.29633 -0.35983,-0.29633 -0.0529,0 -0.15875,0.17991 -0.13758,0.21167 -0.13758,0.46567 0,0.42333 0.56091,1.56632 0.56092,1.143 0.56092,1.76742 0,0.84666 -0.635,1.13241 -0.34925,0.15875 -1.12183,0.15875 -1.02658,0 -1.42875,-0.40217 -0.3175,-0.30691 -0.3175,-0.97366 0,-0.59267 0.508,-1.95791 0.51858,-1.37583 0.51858,-2.02141 0,-0.48683 -0.39158,-1.16416 -0.381,-0.68792 -0.381,-0.97367 0,-0.43391 0.64558,-0.66675 0.43392,-0.14816 0.86784,-0.14816 1.00541,0 1.60866,0.89958 0.381,0.56091 0.77258,1.88383 0.39158,1.31233 0.62441,1.66157 0.16933,-0.127 0.16933,-0.41274 0,-0.56092 -0.47624,-1.94733 -0.47625,-1.397 -0.47625,-1.32291 0,-0.1905 0.30691,-0.40217 0.46567,-0.3175 1.34408,-0.3175 0.45508,0 0.84667,0.17992 0.46566,0.22225 0.46566,0.5715 0,0.17991 -0.43391,1.02658 -0.43392,0.84666 -0.43392,1.16416 0,0.65616 0.52917,2.13783 0.52916,1.48166 0.52916,1.93674 z"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#cf0200;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Groovy-Extended;-inkscape-font-specification:Groovy-Extended;letter-spacing:0px;word-spacing:0px;white-space:pre;fill:#d00200;fill-opacity:1"
        id="path877" />
   </g>
 </svg>

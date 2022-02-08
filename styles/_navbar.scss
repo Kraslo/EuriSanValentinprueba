@@ -7,6 +7,7 @@
   @media only screen and (max-width: 600px) {
     margin: 0;
     padding: 20px;
+    @include flexCenter(column);
   }
 
   overflow: hidden;
@@ -29,7 +30,10 @@
   }
   .right-menu {
     @include flexCenter(row);
+    @media only screen and (max-width: 600px) {
+      padding-top: 16px;
+    }
     align-items: flex-end;
-    width: clamp(200px, 30%, 600px);
+    width: clamp(300px, 40%, 600px);
   }
 }

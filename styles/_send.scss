@@ -1,0 +1,101 @@
+.form-container {
+  @include flexCenter(column);
+  padding-bottom: 80px;
+
+  .form {
+    width: 256px;
+    @include flexCenter(column);
+    align-items: flex-start;
+    .input-description {
+      font-size: 0.7em;
+      font-weight: 100;
+      margin: 2px;
+      color: $secondaryBlack;
+    }
+    .text-input {
+      border: 2px solid $red;
+      border-radius: 10px;
+      height: 36px;
+      text-align: center;
+      width: 248px;
+      margin-top: 4px;
+      margin-bottom: 16px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .text-box {
+      border: 2px solid $red;
+      border-radius: 10px;
+      height: 200px;
+      padding: 8px;
+      text-align: center;
+      width: 236px;
+      margin-top: 4px;
+      margin-bottom: 16px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .selector {
+      width: 256px;
+      margin-top: 4px;
+      margin-bottom: 16px;
+      text-align: center;
+      border: 2px solid $red;
+      border-radius: 10px;
+      height: 42px;
+      background-color: $white;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .payment-title {
+      font-size: 1.2em;
+      margin-top: 8px;
+      margin-bottom: 0px;
+    }
+
+    .payment-info {
+      font-weight: 300;
+      font-size: 0.8em;
+
+      .prices {
+        margin: 2px;
+      }
+    }
+
+    .input-button-container {
+      margin-top: 12px;
+      width: 100%;
+      @include flexCenter(row);
+
+      .input-button {
+        border-radius: 12px;
+        height: 42px;
+        color: $white;
+        font-weight: 800;
+        background-color: $red;
+        border: none;
+        width: 72px;
+
+        // Transition
+        transition: transform 0.2s;
+
+        // Zoom on hover
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        // Shadow
+        box-shadow: 5px 6px 22px -9px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}

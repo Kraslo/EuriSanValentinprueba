@@ -1,0 +1,38 @@
+.preview-container {
+  position: relative;
+  transform: translateX(-172px);
+
+  // Transition
+  transition: transform 0.2s;
+
+  // Zoom on hover
+  &:hover {
+    transform: scale(1.1) rotate(6deg) translateX(-172px);
+  }
+  .piruleta {
+    transform: rotate(20deg);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  .note {
+    position: absolute;
+    transform: rotate(-6deg);
+    padding: 24px;
+
+    z-index: 0;
+    top: 76px;
+    left: 72px;
+
+    background-color: $white;
+    max-height: 300px;
+    width: 360px;
+    border-radius: 20px;
+
+    @include flexCenter(row);
+
+    // Shadow
+    box-shadow: 5px 6px 22px -9px rgba(0, 0, 0, 0.5);
+  }
+}
