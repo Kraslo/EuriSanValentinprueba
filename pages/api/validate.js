@@ -9,11 +9,6 @@ const validateRequest = (body) => {
   return true
 }
 
-const connectToDB = async () => {
-  await sequelize.authenticate();
-  console.log('Connection has been established successfully.');
-}
-
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     // Process a POST request
@@ -42,24 +37,6 @@ export default async function handler(req, res) {
           message: message
         }
       })
-
-      const presents = await prisma.present.findMany()
-
-      res.json(presents)
-      res.status(200).end()
-
-      // return new Promise(resolve => {
-      //   connectToDB()
-      //     .then(() => {
-      //       res.status(200).end()
-      //       resolve();
-      //     })
-      //     .catch(error => {
-      //       console.error('Unable to connect to the database:', error);
-      //       res.status(500).end();
-      //       resolve(); // in case something goes wrong in the catch block (as vijay commented)
-      //     });
-      // });
     }
 
     else {
