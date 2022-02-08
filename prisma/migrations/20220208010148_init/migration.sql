@@ -6,5 +6,7 @@ CREATE TABLE "Present" (
     "email" TEXT,
     "name" TEXT,
     "account" TEXT,
-    "message" TEXT
+    "message" TEXT,
+    "group" TEXT,
+    "degree" TEXT
 );

@@ -4,9 +4,24 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 const validateRequest = (body) => {
-  const { email, personType, name, account, message } = body
+  const { email, personType, name, account, message, group, degree } = body
 
-  return true
+  const emailValidation = email.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g)
+  console.log(emailValidation)
+
+  const lengthValidation = Object.values(body).every(elem => {elem === undefined || elem.length < 1000})
+  console.log(lengthValidation)
+
+  const typeValidation = ["student", "teacher", "pas"].includes(personType)
+  console.log(typeValidation)
+
+  const studentValidation = !(personType === "student" && degree === undefined)
+  console.log(studentValidation)
+
+  const nameValidation = !(name === undefined && account === undefined)
+  console.log(nameValidation)
+
+  return emailValidation && lengthValidation && typeValidation && studentValidation && nameValidation
 }
 
 export default async function handler(req, res) {
@@ -20,7 +35,7 @@ export default async function handler(req, res) {
     // Text: message
 
     if(validateRequest(req.body)) {
-      const { email, personType, name, account, message } = req.body
+      const { email, personType, name, account, message, group, degree } = req.body
 
       console.log(email)
       console.log(personType)
@@ -34,9 +49,13 @@ export default async function handler(req, res) {
           personType: personType,
           name: name,
           account: account,
-          message: message
+          message: message,
+          group: group,
+          degree: degree
         }
       })
+
+      res.status(200).end()
     }
 
     else {

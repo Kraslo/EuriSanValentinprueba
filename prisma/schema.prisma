@@ -15,7 +15,9 @@ model Present {
   createdAt   DateTime  @default(now())
   personType  String?
   email       String?
-  name        String?
-  account     String?
+  name        String
+  account     String
   message     String?
+  group       String
+  degree      String
 }
