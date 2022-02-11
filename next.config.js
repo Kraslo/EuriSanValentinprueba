@@ -5,7 +5,7 @@ module.exports = {
       {
         source: '/send',  // this path will be redirected to 404 
         destination: '/404',
-        permanent: true,
+        // permanent: true,
       },
     ]
   },
