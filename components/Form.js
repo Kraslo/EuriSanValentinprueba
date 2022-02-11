@@ -29,19 +29,19 @@ function Form(props) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     let data = {
-      email,
+      email: email.trim(),
       personType,
-      name: fullname,
-      account: instagram,
-      group,
+      name: fullname.trim(),
+      account: instagram.trim(),
+      group: group.trim(),
       message,
       degree,
-      findHint
+      findHint: findHint.trim()
     };
 
-    console.log("DATA", data);
+    // console.log("DATA", data);
 
-    let response = await fetch("/api/validate", {
+    let response = await fetch("/api/send", {
       method: "POST",
       headers: {'Content-Type': 'application/json'}, 
       body: JSON.stringify(data)

@@ -2,7 +2,7 @@ import {useState} from "react";
 
 import { Form, Preview } from "../components";
 
-function Home() {
+function Send() {
 
     const [message, setMessage] = useState("");
   return <>
@@ -16,4 +16,4 @@ function Home() {
   </>;
 }
 
-export default Home;
+export default Send;

@@ -3,7 +3,11 @@
   padding-bottom: 80px;
 
   .form {
-    width: 256px;
+    max-width: 400px;
+    @media only screen and (max-width: 600px) {
+      margin: 0;
+      padding: 20px;
+    }
     @include flexCenter(column);
     align-items: flex-start;
     .input-description {
@@ -17,7 +21,7 @@
       border-radius: 10px;
       height: 36px;
       text-align: center;
-      width: 248px;
+      width: 98%;
       margin-top: 4px;
       margin-bottom: 16px;
 
@@ -32,7 +36,7 @@
       height: 200px;
       padding: 8px;
       text-align: center;
-      width: 236px;
+      width: 95%;
       margin-top: 4px;
       margin-bottom: 16px;
 
@@ -42,7 +46,7 @@
     }
 
     .selector {
-      width: 256px;
+      width: 100%;
       margin-top: 4px;
       margin-bottom: 16px;
       text-align: center;

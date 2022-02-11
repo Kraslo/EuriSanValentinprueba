@@ -1,7 +1,4 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient()
+import { supabase } from "../../utils";
 
 const validateRequest = (body) => {
   const { email, personType, name, account, message, group, degree, findHint } = body
@@ -37,36 +34,20 @@ const validateRequest = (body) => {
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
-    // Process a POST request
-
-    // Email: email
-    // Estudainte, profe, PAS: personType
-    // Name: name
-    // Instagram o twitter: account
-    // Text: message
 
     if(validateRequest(req.body)) {
       console.log(req.body);
       const { email, personType, name, account, message, group, degree, findHint } = req.body
 
-      console.log(email)
-      console.log(personType)
-      console.log(name)
-      console.log(account)
-      console.log(message)
+      const { data, error } = await supabase
+        .from('piruletas')
+        .insert([
+          { email, person_type: personType, name, account, message, group, degree, find_hint: findHint }
+      ], { returning: "minimal" });  // So it doesn't perform a select after it finishes
 
-      await prisma.present.create({
-        data: {
-          email: email,
-          personType: personType,
-          name: name,
-          account: account,
-          message: message,
-          group: group,
-          degree: degree,
-          findHint: findHint
-        }
-      })
+      console.log(data);
+
+      console.log(error);
 
       res.status(200).end()
     }

@@ -5,10 +5,10 @@ services:
     image: sanva
     container_name: sanva
     restart: unless-stopped
-    # volumes:
-    #   - /tmp/prisma/data:/app/prisma/data
+    environment:
+      - SUPABASE_URL=$SUPABASE_URL
+      - SUPABASE_ANON=$SUPABASE_ANON
     ports:
       - 3000:3000
-    # command: yarn prisma migrate dev --name init & yarn run start
     environment:
       - TZ=Europe/Madrid

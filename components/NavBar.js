@@ -51,19 +51,17 @@ function NavBar() {
         />
       </Link>
   */}
-      {
-      //   <Link href="/check">
-      // <Image
-      //     height={imageClass === "san-valentin reduced" ? 174*0.1 : 174*0.2 }
-      //     width={imageClass === "san-valentin reduced" ? 938*0.1 : 938*0.2 }
-      //     layout="intrinsic"
-      //     className={imageClass}
-      //     src="/assets/comprobar.svg"
-      //     alt="Comprobar"
-      //     loading="eager"
-      //   />
-      // </Link>
-      }
+      <Link href="/check">
+      <Image
+          height={imageClass === "san-valentin reduced" ? 174*0.1 : 174*0.2 }
+          width={imageClass === "san-valentin reduced" ? 938*0.1 : 938*0.2 }
+          layout="intrinsic"
+          className={imageClass}
+          src="/assets/comprobar.svg"
+          alt="Comprobar"
+          loading="eager"
+        />
+      </Link>   
       <Link href="mailto:sanvalentin@eurielec.etsit.upm.es">
       <Image
           height={imageClass === "san-valentin reduced" ? 170*0.1 : 170*0.2 }

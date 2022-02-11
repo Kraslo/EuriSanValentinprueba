@@ -5,9 +5,6 @@ function Home() {
 
   <Piruletas/>
 
-  {
-  //<Preview />
-  }
   </div>;
 }
 

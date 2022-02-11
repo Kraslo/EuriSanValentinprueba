@@ -1,0 +1,12 @@
+.piruletas-result-container {
+  @include flexCenter(column);
+
+  .message-container {
+    @include flexCenter(column);
+    max-width: 600px;
+    @media only screen and (max-width: 600px) {
+      margin: 0;
+      padding: 20px;
+    }
+  }
+}
