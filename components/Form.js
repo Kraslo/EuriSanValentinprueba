@@ -142,7 +142,7 @@ function Form(props) {
               value={degree}
             >
               
-                <option key={1} value="telecomunications">
+                <option key={1} value="telecommunications">
                   Telecomunicación
                 </option>
                 <option key={2} value="biomedicine">
