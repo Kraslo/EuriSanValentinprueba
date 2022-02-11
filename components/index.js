@@ -6,5 +6,5 @@ import Piruletas from "./Piruletas";
 import Piruleta from "./Piruleta";
 import Preview from "./Preview";
 import Form from "./Form";
-
-export { NavBar, Layout, Loading, Piruletas, Piruleta, Preview, Form };
+import PedidosCerrados from "./PedidosCerrados"
+export { NavBar, Layout, Loading, Piruletas, Piruleta, Preview, Form, PedidosCerrados};
