@@ -32,7 +32,7 @@ function Form(props) {
       email: email.trim(),
       personType,
       name: fullname.trim(),
-      account: instagram.trim(),
+      account: instagram.trim().replace("@", ""),
       group: group.trim(),
       message,
       degree,
