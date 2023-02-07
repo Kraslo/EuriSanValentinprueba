@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Layout } from "../components";
+import { Layout, PedidosCerrados } from "../components";
 
 import "../styles/style.scss";
 
@@ -13,7 +13,8 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <Layout>
-          <Component {...pageProps} />
+          <PedidosCerrados />
+          {/* <Component {...pageProps} /> */}
         </Layout>
     </div>
         
