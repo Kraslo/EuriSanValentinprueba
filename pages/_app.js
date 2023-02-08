@@ -13,8 +13,8 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <Layout>
-          <PedidosCerrados />
-          {/* <Component {...pageProps} /> */}
+          {/* <PedidosCerrados />*/}
+          <Component {...pageProps} />
         </Layout>
     </div>
         
